@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Test</title>
 </head>
 <body>
-    <h1>test</h1>
+
+    <button onclick="modal.showModal()">open</button>
+    <dialog id="modal">
+        <h3>test</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ut dolore optio inventore repellat fuga minima. Explicabo fugit, accusantium minus quam numquam voluptates eaque modi, tenetur natus incidunt ipsam repudiandae, placeat sunt doloremque quaerat quis perferendis alias amet aperiam similique impedit nam soluta mollitia. Mollitia repellendus harum assumenda recusandae non.</p>
+        <button onclick="modal.close()">close</button>
+    </dialog>
+
 </body>
 </html>
