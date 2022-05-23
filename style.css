@@ -1,5 +1,5 @@
 body {
-    background-color: #f00;
+    background-color: linear-gradient(45deg, #f00, #00f);
 }
 
 dialog {
